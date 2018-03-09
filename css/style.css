@@ -3,10 +3,15 @@
   src: url('../css/font/GlacialIndifference-Regular.otf');
 }
 
+@font-face{
+  font-family: gi-bold;
+  src: url('../css/font/GlacialIndifference-Bold.otf');
+}
+
 html, body{
     font-family: 'gi';
     background-color: #005cff;
-    overflow-x: hidden !important;
+    overflow: hidden !important;
     height: 100% !important;
     width: 100% !important;
 
@@ -31,7 +36,7 @@ div{
 
 .home{
     padding-top: 15%;
-    margin-right: -8%;
+    margin-right: -6%;
 }
 
 #logo img{
@@ -45,6 +50,9 @@ div{
 .p-size{
   font-size: 20px;
   margin-top: 2%;
+}
+.p-hello{
+      margin-top: -5%;
 }
 
 #logo h3{
@@ -61,6 +69,11 @@ div{
    width: 100%;
    color: white;
    text-align: center;
+}
+
+.social-icon h3{
+  font-weight: 600;
+      font-size: 18px;
 }
 
 .social a {
@@ -225,7 +238,22 @@ div{
     background-size: auto;
 }
 
+/* Media Queries for Mobile view */
 
+
+@media only screen and (width: 1440px) {
+    .home {
+        padding-top: 11%;
+        margin-right: -8%;
+    }
+}
+
+@media (max-width: 768px) {
+.home {
+    padding-top: 17%;
+    margin-right: 3%;
+}
+}
 
 @media (max-width: 430px) {
 
@@ -239,17 +267,35 @@ div{
     height: 150px;
     margin-bottom: -10%;
     margin-top: -10%;
-    margin-left: -100%;
+    margin-left: -73%;
 }
 #logo h3{
-  margin-left: -91%;
-  font-size: 1em;
+  margin-left: -62%;
+  font-size: 0.9em;
+  margin-top: 5%;
 }
 .p-size {
     font-size: 20px;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 6%;
     text-align: center !important;
+}
+.p-hello{
+      margin-top: -5%;
+}
+.social-icon {
+    font-size: 1.5em;
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.social-icon h3{
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .fbmessenger.wposbottom_right {
@@ -272,7 +318,7 @@ div{
   overflow: hidden !important;
 }
 .home {
-    padding-top: 20%;
+    padding-top: 17%;
     margin-right: -8%;
 }
 #logo img {
@@ -284,25 +330,34 @@ div{
     margin-left: -85%;
 }
 #logo h3{
-  margin-left: -77%;
-  font-size: 1em;
+  margin-left: -74%;
+  font-size: 0.9em;
+  margin-top: 5%;
 }
 .p-size {
     font-size: 16px;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 9%;
     text-align: center !important;
 }
-
+.p-hello{
+      margin-top: -5%;
+}
 .social-icon {
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 10%;
+    bottom: 5%;
     width: 100%;
     color: white;
     text-align: center;
 }
+
+.social-icon h3{
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .fbmessenger.wposbottom_right {
     left: initial;
     right: 30px;
@@ -320,7 +375,7 @@ div{
   overflow: hidden !important;
 }
 .home {
-    padding-top: 25%;
+    padding-top: 16%;
     margin-right: -8%;
 }
 #logo img {
@@ -332,16 +387,19 @@ div{
     margin-left: -63%;
 }
 #logo h3{
-  margin-left: -56%;
-  font-size: 1em;
+  margin-left: -52%;
+    font-size: 0.9em;
+    margin-top: 4%;
 }
 .p-size {
     font-size: 16px;
-    margin-top: 12%;
+    margin-top: 8%;
     margin-left: 2%;
     text-align: center !important;
 }
-
+.p-hello{
+      margin-top: -5%;
+}
 .social-icon {
     font-size: 1.5em;
     position: fixed;
@@ -351,6 +409,12 @@ div{
     color: white;
     text-align: center;
 }
+
+.social-icon h3{
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .fbmessenger.wposbottom_right {
     left: initial;
     right: 10px;

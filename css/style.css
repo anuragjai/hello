@@ -45,11 +45,20 @@ div{
   height: 210px;
   margin-bottom: -13%;
   margin-top: -10%;
+  transition: box-shadow .3s;
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
 .p-size{
   font-size: 20px;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .p-hello{
       margin-top: -5%;
@@ -65,16 +74,22 @@ div{
    font-size: 1.5em;
    position: fixed;
    left: 0;
-   bottom: 6%;
+   bottom: 0%;
    width: 100%;
    color: white;
    text-align: center;
+         background-color: blue;
+    box-shadow: 2px 0px 2px grey;
+}
+.social-icon a:hover, a:active, a:focus, a:visited{
+  color: white;
+  text-decoration: none;
 }
 
 .social-icon h3{
   font-weight: 600;
-      font-size: 18px;
-}
+  font-size: 18px;
+ }
 
 .social a {
   color: inherit;
@@ -250,7 +265,7 @@ div{
 
 @media (max-width: 768px) {
 .home {
-    padding-top: 17%;
+    padding-top: 19%;
     margin-right: 3%;
 }
 }
@@ -287,10 +302,11 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 2%;
+    bottom: 0%;
     width: 100%;
     color: white;
     text-align: center;
+
 }
 
 .social-icon h3{
@@ -318,7 +334,7 @@ div{
   overflow: hidden !important;
 }
 .home {
-    padding-top: 17%;
+    padding-top: 20%;
     margin-right: -8%;
 }
 #logo img {
@@ -347,10 +363,11 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 5%;
+    bottom: 0%;
     width: 100%;
     color: white;
     text-align: center;
+
 }
 
 .social-icon h3{
@@ -375,8 +392,9 @@ div{
   overflow: hidden !important;
 }
 .home {
-    padding-top: 16%;
+    padding-top: 25%;
     margin-right: -8%;
+    overflow: hidden;
 }
 #logo img {
     position: relative;
@@ -396,6 +414,7 @@ div{
     margin-top: 8%;
     margin-left: 2%;
     text-align: center !important;
+    overflow: hidden;
 }
 .p-hello{
       margin-top: -5%;
@@ -404,7 +423,7 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 10%;
+    bottom: 0%;
     width: 100%;
     color: white;
     text-align: center;

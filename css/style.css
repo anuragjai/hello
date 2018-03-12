@@ -74,12 +74,10 @@ div{
    font-size: 1.5em;
    position: fixed;
    left: 0;
-   bottom: 0%;
+   bottom: 6%;
    width: 100%;
    color: white;
    text-align: center;
-         background-color: blue;
-    box-shadow: 2px 0px 2px grey;
 }
 .social-icon a:hover, a:active, a:focus, a:visited{
   color: white;
@@ -263,6 +261,14 @@ div{
     }
 }
 
+@media (max-width: 1367px) {
+.home {
+    padding-top: 13%;
+    margin-right: -7%;
+}
+}
+
+
 @media (max-width: 768px) {
 .home {
     padding-top: 19%;
@@ -302,11 +308,10 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 0%;
+    bottom: 2%;
     width: 100%;
     color: white;
     text-align: center;
-
 }
 
 .social-icon h3{
@@ -363,11 +368,10 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 0%;
+    bottom: 5%;
     width: 100%;
     color: white;
     text-align: center;
-
 }
 
 .social-icon h3{
@@ -423,7 +427,7 @@ div{
     font-size: 1.5em;
     position: fixed;
     left: 0;
-    bottom: 0%;
+    bottom: 6%;
     width: 100%;
     color: white;
     text-align: center;
